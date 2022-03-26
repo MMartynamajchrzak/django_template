@@ -1,6 +1,6 @@
 # Django template
 ## General info
-Template for DRF projects, with ready docker.
+Template for DRF projects, with ready docker, postgres db, and CI.
 
 
 ## Setup
