@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         db: [ postgres ]
-        python-version: [ 3.10 ]
+        python-version: [ "3.10" ]
         include:
           - db: postgres
             db_name: postgres
