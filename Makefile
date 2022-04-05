@@ -22,3 +22,6 @@ app_logs:
 
 db_logs:
 	docker-compose logs db
+
+lint:
+	docker-compose run app flake8 --exclude migrations,settings.py,env,.pytest_cache,.github --ignore E501,W503
