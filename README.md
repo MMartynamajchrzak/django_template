@@ -32,3 +32,8 @@ To check logs for database:
 ```
 $ make logs_db
 ```
+
+To find stylistic errors:
+```
+$ make lint
+```
